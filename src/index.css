@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html,
+body {
+  @apply bg-black text-white;
+  height: 100%;
+  font-family: "Inter", sans-serif;
+}
+@media screen and (min-width: 960px) {
+  html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+  }
+}
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
