@@ -6,6 +6,7 @@ import wingman2 from "../images/wingmanstats2.jpg";
 import heatmap1 from "../images/SCMHeatmap1.png";
 import heatmap2 from "../images/SCMHeatmap2.png";
 import cottage from "../images/cottage.png";
+import avatar from "../images/avatar2.png";
 
 import { TweetCard } from "./tweetCard";
 import type { Tweet } from "./types/tweet";
@@ -18,7 +19,7 @@ const tweets: Tweet[] = [
     content:
       "🍿 FilmhiveAI is a website that learns your preferences and recommends movies the algorithm thinks you’ll like! \nHow?\n👉The recommender model has been trained with MovieLens dataset \nWhere? \n🐝 https://FilmHiveAI.com",
     createdAt: "3. Jan. 2026",
-    avatarUrl: "/images/avatar2.png",
+    avatarUrl: avatar,
     images: [film1, film2, film3, film4],
   },
   {
@@ -28,7 +29,7 @@ const tweets: Tweet[] = [
     content:
       "⚡️Wingman stats is a chrome extension which fetches data from steam and displays your performance! 👾 \nAvailable to download at: \n👉 https://chromewebstore.google.com/detail/wingman-stats/mhlkglboplmplljifacjlmenemhckmdm",
     createdAt: "27. Dec. 2025",
-    avatarUrl: "/images/avatar2.png",
+    avatarUrl: avatar,
     images: [wingman2],
   },
 
@@ -49,7 +50,7 @@ const tweets: Tweet[] = [
     content:
       "🏡 Estimate your cottage listing price easily, or see if a given listing price is close to the data trend! \n👉 https://CottageValuator.com",
     createdAt: "6. Jul. 2025",
-    avatarUrl: "/images/avatar2.png",
+    avatarUrl: avatar,
     images: [cottage],
   },
 ];
