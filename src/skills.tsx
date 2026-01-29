@@ -6,11 +6,14 @@ import flutter from "../images/flutter.png";
 import r from "../images/r.png";
 import figma from "../images/Figma.png";
 import sql from "../images/sql.png";
-
+import TypeScript from "../images/ts.png";
+import tailwind from "../images/tailwind.png";
 const skillsprof = [
   { src: python, name: "Python" },
   { src: react, name: "React" },
   { src: javascript, name: "JavaScript" },
+  { src: TypeScript, name: "TypeScript" },
+  { src: tailwind, name: "Tailwind CSS" },
 ];
 const skillsgood = [
   { src: r, name: "R" },

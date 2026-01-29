@@ -8,7 +8,7 @@ function Info() {
           </div>
           <div className="text-sm mt-1 text-gray-500">@sopenlehto</div>
           <div className="text-sm my-2">
-            I just build whatever I find interesting
+            Turning ideas into reality with code
           </div>
         </div>
       </div>
