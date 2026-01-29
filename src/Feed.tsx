@@ -40,7 +40,7 @@ const tweets: Tweet[] = [
     content:
       "💹 The Steam Community Market heatmap is a stock-market-like visual and dynamic representation of Counter-Strike 2 economy trends! \n👉 https://SCMHeatmap.com",
     createdAt: "17. Nov. 2025",
-    avatarUrl: "/images/avatar2.png",
+    avatarUrl: avatar,
     images: [heatmap1, heatmap2],
   },
   {
