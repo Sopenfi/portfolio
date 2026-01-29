@@ -4,7 +4,7 @@ import javascript from "../images/javascript.png";
 import dart from "../images/dart.png";
 import flutter from "../images/flutter.png";
 import r from "../images/r.png";
-import figma from "../images/figma.png";
+import figma from "../images/Figma.png";
 import sql from "../images/sql.png";
 
 const skillsprof = [
