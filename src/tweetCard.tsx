@@ -66,7 +66,7 @@ export const TweetCard = ({ tweet }: { tweet: Tweet }) => {
         </div>
 
         <div className="flex-1">
-          <div className="flex items-center gap-2 text-sm">
+          <div className="flex items-center gap-2 lg:text-sm text-[12px]">
             <span className="font-semibold">{tweet.author}</span>
             <span className="text-gray-500">@{tweet.username}</span>
             <span className="text-gray-500">· {tweet.createdAt}</span>
