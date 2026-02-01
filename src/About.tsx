@@ -1,5 +1,3 @@
-import aboutIMG from "../images/aboutIMG.png";
-
 function About() {
   return (
     <div className="flex md:flex-row flex-col border border-gray-500 p-5">
@@ -21,7 +19,11 @@ function About() {
       </div>
       <div className="flex justify-end">
         <div className="md:w-[300px] max-w-[300px] mx-auto">
-          <img src={aboutIMG} className="rounded-xl object-contain" />
+          <img
+            src="/images/aboutIMG.png"
+            alt="About"
+            className="rounded-xl object-contain"
+          />
         </div>
       </div>
     </div>
