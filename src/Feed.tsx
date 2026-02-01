@@ -6,7 +6,6 @@ import wingman2 from "../images/wingmanstats2.jpg";
 import heatmap1 from "../images/SCMHeatmap1.png";
 import heatmap2 from "../images/SCMHeatmap2.png";
 import cottage from "../images/cottage.png";
-import avatar from "../images/avatar2.png";
 
 import { TweetCard } from "./tweetCard";
 import type { Tweet } from "./types/tweet";
